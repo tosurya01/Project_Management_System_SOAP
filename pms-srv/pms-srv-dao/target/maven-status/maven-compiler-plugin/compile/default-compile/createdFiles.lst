@@ -1,0 +1,3 @@
+com\evry\fs\payment\pms\srv\dao\ProjectDetailsDao.class
+com\evry\fs\payment\pms\srv\dao\internal\ProjectDetailsDaoImpl.class
+com\evry\fs\payment\pms\srv\dao\mapper\ProjectDetailsDaoMapper.class

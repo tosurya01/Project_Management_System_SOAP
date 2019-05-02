@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+	targetNamespace="http://evry.com/fs/payment/pms"
+	xmlns:tns="http://evry.com/fs/payment/pms"
+	elementFormDefault="qualified">
+	<xsd:element name="addProjectRequestType">
+		<xsd:complexType>
+			<xsd:sequence>
+				<xsd:element ref="tns:ProjectDetailsType" />
+			</xsd:sequence>
+		</xsd:complexType>
+	</xsd:element>
+	<xsd:element name="addProjectResponseType">
+		<xsd:complexType>
+			<xsd:sequence>
+				<xsd:element name="flag" type="xsd:boolean" />
+			</xsd:sequence>
+		</xsd:complexType>
+	</xsd:element>
+	<xsd:element name="getProjectInfoRequestType">
+		<xsd:complexType>
+			<xsd:sequence>
+				<xsd:element name="projectId" type="xsd:int" />
+			</xsd:sequence>
+		</xsd:complexType>
+	</xsd:element>
+	<xsd:element name="getProjectInfoResponseType">
+		<xsd:complexType>
+			<xsd:sequence>
+				<xsd:element ref="tns:ProjectDetailsType" />
+			</xsd:sequence>
+		</xsd:complexType>
+	</xsd:element>
+	<xsd:element name="updateProjectRequestType">
+		<xsd:complexType>
+			<xsd:sequence>
+				<xsd:element name="projectId" type="xsd:int" />
+				<xsd:element name="projectName" type="xsd:string" />
+			</xsd:sequence>
+		</xsd:complexType>
+	</xsd:element>
+	<xsd:element name="updateProjectResponseType">
+		<xsd:complexType>
+			<xsd:sequence>
+				<xsd:element name="flag" type="xsd:boolean" />
+			</xsd:sequence>
+		</xsd:complexType>
+	</xsd:element>
+	<xsd:element name="getAllProjectsRequestType">
+		<xsd:complexType />
+	</xsd:element>
+	<xsd:element name="deleteProjectRequestType">
+		<xsd:complexType>
+			<xsd:sequence>
+				<xsd:element name="projectId" type="xsd:int" />
+			</xsd:sequence>
+		</xsd:complexType>
+	</xsd:element>
+	<xsd:element name="deleteProjectResponseType">
+		<xsd:complexType>
+			<xsd:sequence>
+				<xsd:element name="flag" type="xsd:boolean" />
+			</xsd:sequence>
+		</xsd:complexType>
+	</xsd:element>
+	<xsd:element name="getAllProjectsResponseType">
+		<xsd:complexType>
+			<xsd:sequence>
+				<xsd:element ref="tns:ProjectDetailsType" minOccurs="0"
+					maxOccurs="unbounded" />
+			</xsd:sequence>
+		</xsd:complexType>
+	</xsd:element>
+	<xsd:element name="ProjectDetailsType">
+		<xsd:complexType>
+			<xsd:sequence>
+				<xsd:element name="projectId" type="xsd:int" />
+				<xsd:element name="projectName" type="xsd:string" />
+				<xsd:element name="projectStatus" type="xsd:string" />
+				<xsd:element name="estimatedHrs" type="xsd:int" />
+				<xsd:element name="loggedHrs" type="xsd:int" />
+				<xsd:element name="remainingHrs" type="xsd:int" />
+			</xsd:sequence>
+		</xsd:complexType>
+	</xsd:element>
+</xsd:schema>

@@ -1,0 +1,15 @@
+com\evry\fs\payment\pms\GetAllProjectsRequestType.class
+com\evry\fs\payment\pms\DeleteProjectRequestType.class
+com\evry\fs\payment\pms\AddProjectRequestType.class
+com\evry\fs\payment\pms\UpdateProjectRequestType.class
+com\evry\fs\payment\pms\UpdateProjectResponseType.class
+com\evry\fs\payment\pms\DeleteProjectResponseType.class
+com\evry\fs\payment\pms\services\projectservice_v19_1\ProjectServiceV191.class
+com\evry\fs\payment\pms\ProjectDetailsType.class
+com\evry\fs\payment\pms\GetProjectInfoResponseType.class
+com\evry\fs\payment\pms\services\projectservice_v19_1\ProjectServiceV191_Service.class
+com\evry\fs\payment\pms\GetAllProjectsResponseType.class
+com\evry\fs\payment\pms\GetProjectInfoRequestType.class
+com\evry\fs\payment\pms\package-info.class
+com\evry\fs\payment\pms\AddProjectResponseType.class
+com\evry\fs\payment\pms\ObjectFactory.class

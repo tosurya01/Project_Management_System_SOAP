@@ -1,0 +1,12 @@
+com\evry\fs\payment\pms\srv\service\internal\GetProjectInfoImpl.class
+com\evry\fs\payment\pms\srv\service\UpdateProject.class
+com\evry\fs\payment\pms\srv\service\internal\AddProjectImpl.class
+com\evry\fs\payment\pms\srv\service\internal\ProjectDetailsServiceImpl.class
+com\evry\fs\payment\pms\srv\service\DeleteProject.class
+com\evry\fs\payment\pms\srv\service\GetProjectInfo.class
+com\evry\fs\payment\pms\srv\service\internal\GetAllProjectsImpl.class
+com\evry\fs\payment\pms\srv\service\AddProject.class
+com\evry\fs\payment\pms\srv\service\ProjectDetailsService.class
+com\evry\fs\payment\pms\srv\service\internal\DeleteProjectImpl.class
+com\evry\fs\payment\pms\srv\service\GetAllProjects.class
+com\evry\fs\payment\pms\srv\service\internal\UpdateProjectImpl.class
