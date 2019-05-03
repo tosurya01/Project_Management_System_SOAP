@@ -16,5 +16,6 @@
   	<module>pms-srv-model</module>
   	<module>pms-srv-ws</module>
   	<module>pms-srv-entity</module>
+  	<module>pms-srv-client</module>
   </modules>
 </project>
