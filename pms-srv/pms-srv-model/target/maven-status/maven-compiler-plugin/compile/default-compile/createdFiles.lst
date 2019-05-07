@@ -8,8 +8,10 @@ com\evry\fs\payment\pms\srv\model\AddProjectRequest.class
 com\evry\fs\payment\pms\srv\model\UpdateProjectRequest.class
 com\evry\fs\payment\pms\srv\model\GetAllProjectsResponse.class
 com\evry\fs\payment\pms\srv\model\AddProjectResponse.class
+com\evry\fs\payment\pms\srv\model\Employee.class
 com\evry\fs\payment\pms\srv\model\GetAllProjectsRequest$GetAllProjectsRequestBuilder.class
 com\evry\fs\payment\pms\srv\model\UpdateProjectRequest$UpdateProjectRequestBuilder.class
+com\evry\fs\payment\pms\srv\model\Employee$EmployeeBuilder.class
 com\evry\fs\payment\pms\srv\model\GetProjectInfoResponse.class
 com\evry\fs\payment\pms\srv\model\DeleteProjectResponse.class
 com\evry\fs\payment\pms\srv\model\UpdateProjectResponse$UpdateProjectResponseBuilder.class
